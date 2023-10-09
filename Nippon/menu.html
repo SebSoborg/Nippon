@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Nippon</title>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,400&family=Playfair+Display&display=swap"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="description" content="Din personlige ugentlige måltidskasse fra Nippon">
+        <meta name="keywords" content="Måltidskasser, betaling, levering, japan, sushi, mad">
+    </head>
+    <body>
+        <div class="mininav">
+            <a class="minilink" href="#home">Levering</a>
+            <a class="minilink" href="#news">Kontakt</a>
+            <a class="minilink" href="#hjem">Det Japanske Køkken</a>
+
+          </div> 
+        <div class="topnav" id="myTopnav">
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+            <a href="menu.html">Ugens Menu</a>
+            <a href="kasser.html">Måltidskasser</a>
+            <a href="javascript:void(0);" class="icon" onclick="burger()">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div id="ikoner">
+               <a href="login.html" class="navlogin">Login</a>
+            <a href="profil.html"><img src="images/ikon.png" alt="profil"></a>
+            <a href="betaling.html"><img src="images/kurv.png" alt="checkout"></a>
+
+          </div>
+          </div>
+<div id="container">
+<h1>Din menu</h1>
+<h3>Velkommen, Jesper</h3>
+<div class="test">
+<h4>Ugens opskrifter udvalgt særligt til dig</h4>
+</div>
+<div class="billedecontainer">
+    <div class="tekstbillede">
+    <img class="menubillede" src="images/gyoza.jpg" alt="gyozas">
+    <h4>Gyozas</h4>
+<h5 class="counter-display">(..)</h5>
+<button class="counter-minus">-</button>
+<button class="counter-plus">+</button>
+
+ 
+</div>
+<div class="tekstbillede">
+    <img class="menubillede" src="images/yakisoba.png" alt="yakisoba">
+    <h4>Yakisoba</h4>
+<h5 class="counter-display1">(..)</h5>
+<button class="counter-minus1">-</button>
+<button class="counter-plus1">+</button>
+
+
+    
+</div>
+<div class="tekstbillede">
+    <img class="menubillede" src="images/ramen.png" alt="Ramen">
+    
+    <h4>Ramen</h4>
+<h5 class="counter-display2">(..)</h5>
+<button class="counter-minus2">-</button>
+<button class="counter-plus2">+</button>
+
+</div>
+<div class="tekstbillede">
+    <img class="menubillede" src="images/miso.jpg" alt="Suppe">
+    
+    <h4>Miso suppe</h4>
+<h5 class="counter-display3">(..)</h5>
+<button class="counter-minus3">-</button>
+<button class="counter-plus3">+</button>
+
+</div>
+<div class="tekstbillede">
+    <img class="menubillede" src="images/kryds.png" alt="gyozas">
+    
+
+    <h4>Tilføj</h4>
+</div>
+
+</div>
+
+<button class="loginknap" onclick="location.href='betaling.html';" type="button">Godkend</button>
+<div class="test">
+<h4>Ønsker du at prøve noget nyt i denne uge?</h4>
+<button id="knap1">Vegetarisk</button>
+<button id="knap2">Den hurtige</button>
+<button id="knap3">Kød og grønt</button>
+<button id="knap4">Fisk</button>
+</div>
+<br><br>
+<div id="vegetar">
+    <h2>Vegetarisk</h2>
+    <div class="tekstbillede">
+    <img class="menubillede" src="images/miso.jpg" alt="suppe">
+    
+    <h4>Miso suppe</h4>
+</div>
+<div class="tekstbillede">
+    <img class="menubillede" src="images/ramen.png" alt="ramen">
+    
+    <h4>Ramen</h4>
+</div>
+    </div>
+    <div id="hurtig">
+        <h2>Den hurtige</h2>
+        <div class="tekstbillede">
+        <img class="menubillede" src="images/gyoza.jpg" alt="gyozas">
+        
+        <h4>Gyozas</h4>
+    </div>
+    <div class="tekstbillede">
+        <img class="menubillede" src="images/chahan.png" alt="chahan">
+        
+        <h4>Chahan</h4>
+    </div>
+
+    <div class="tekstbillede">
+        <img class="menubillede" src="images/okonomiyaki.png" alt="Okonomiyaki">
+        
+        <h4>Okonomiyaki</h4>
+    </div>
+        </div>
+        <div id="kød">
+            <h2>Kød og grønt</h2>
+            <div class="tekstbillede">
+            <img class="menubillede" src="images/yakisoba.png" alt="yakisoba">
+            
+            <h4>Yakisoba</h4>
+        </div>
+        <div class="tekstbillede">
+            <img class="menubillede" src="images/yakiniku.png" alt="yakiniku">
+            
+            <h4>Yakiniku</h4>
+        </div>
+        <div class="tekstbillede">
+            <img class="menubillede" src="images/gyodun.png" alt="Gyudon">
+            
+            <h4>Gyudon</h4>
+        </div>
+        <div class="tekstbillede">
+            <img class="menubillede" src="images/katsucurry.png" alt="Katsu">
+            
+            <h4>Katsu curry</h4>
+        </div>
+
+            </div>
+            
+            <div id="fisk">
+                <h2>Fisk</h2>
+                <div class="tekstbillede">
+                <img class="menubillede" src="images/onigiri.png" alt="sushi">
+                
+                <h4>Onigiri</h4>
+            </div>
+
+            
+                </div>
+</div>
+<br>
+
+
+
+
+
+<footer>
+    <div id="footer1">
+      <br>
+<ul id="liste">
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#kundeservice">Kundeservice</a></li>
+<li><a href="#nyhedsmail">Nyhedsmail</a></li>
+<li><a href="#about">Om Nippon</a></li>
+</ul>
+    </div>
+    <div id="footer2">
+   <br>
+   <h3>Kontakt</h3>
+<ul id="kontakt">
+
+<li>info@nippon.dk</li>
+<li>23372336</li>
+<li>CVR: 21039281</li>
+
+</ul>
+    </div>
+    <div id="footer3">
+      <br>
+      <br>
+      <br>
+      
+<h3>Mærkninger</h3>
+<div class="socials">
+<img class="oko" src="images/oko.jpg" alt="øko">
+<img class="oko" src="images/oko1.jpeg" alt="øko">
+</div>
+<h3>Følg os</h3>
+<div class="socials">
+<a class="social" href="https://www.instagram.com/"><img class="social" src="images/insta.png" alt="instagram"></a>
+<a class="social" href="https://twitter.com/?lang=da"><img class="social" src="images/x.png" alt="Twitter"></a>
+<a class="social" href="https://www.facebook.com/"><img class="social" src="images/facebook.png" alt="Facebook"></a>
+</div>
+    </div>
+  </footer>
+</body>
+</HTML>
